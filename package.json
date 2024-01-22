@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.11",
     "next": "14.0.4",
+    "next-sanity": "^7.0.12",
     "react": "^18",
     "react-dom": "^18",
     "typewriter-effect": "^2.21.0"

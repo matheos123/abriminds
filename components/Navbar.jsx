@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="flex flex-row lg:px-40 px-4 justify-between items-center mt-4">
@@ -13,11 +13,11 @@ const Navbar = () => {
         />
       </div>
       <nav className="flex flex-row space-x-4">
-        <p>HOME</p>
-        <p>ABOUT</p>
+        <Link href='/'>HOME</Link>
+        <Link href='/about'>ABOUT</Link>
         <p>TRAINING</p>
         <p>BLOGS</p>
-        <p>CONNECT</p>
+        <Link href='/contact'>CONNECT</Link>
       </nav>
     </div>
   );

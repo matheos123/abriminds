@@ -5,7 +5,9 @@ const Hero = () => {
     <div className="lg:px-40 px-4 flex flex-col md:flex-row py-8">
       <div className="flex flex-col space-y-4 justify-end  flex-1">
         <h1 className="capitalize text-3xl md:text-5xl font-semoibold">
-          Hello! My name is Matheos belay. I am Website and mobile application
+          Hello! My name is Matheos belay. 
+          <br />
+          I am Website and mobile application
           developer.
         </h1>
 
